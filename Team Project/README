@@ -1,0 +1,33 @@
+This file contains information to start the game and a brief guide for how to play the game. 
+
+STARTING THE GAME
+
+The game requires 2 run files. 
+
+First file to run is the WorldServer, which initiates the server. It only has to be run once for multiple players to join the same server.
+src\outworld\WorldServer.java
+
+The second file to run is the Menu, which starts the game.
+src\GUI\Menu.java
+
+PLAYING THE GAME
+
+1. When the menu appears click play to create your character, there is a help guide which explains what is happening at each stage. 
+
+SINGLE PLAYER
+
+2. When you finish selecting your skills, press the "PLAY" button and you will receive a pop up asking for the host address. 
+
+3. For single player you can enter "localhost" and continue into the game. 
+
+MULTIPLAYER
+
+4. If you want to run the multiplayer mode you will need the IP address of the computer that the "WorldServer" is running on. 
+
+5. Enter the IP address when it asks for the hosts address.
+
+6. Other users will have the use the same IP address to join the same game. 
+
+Note - Only 4 players can play at the same time. 
+Note - The images are saved in the images folder which are needed when loading the game. 
+
